@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+}
+
+.space-btw {
+  justify-content: space-between;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+}
+
+.font-7 {
+  font-size: 12px;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: fixed;
+  left: 51em;
+}
+
+input {
+  padding: 10px;
+  margin: 5px 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
