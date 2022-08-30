@@ -28,13 +28,21 @@
         <input placeholder="Password">
         <input placeholder="Confirm Password">
       </div>
-      <div class="row space-btw relative">
-        <input class="absolute" type="checkbox" id="check">
-        <label for="check">
-          I agree
-        </label>
-        <p class="font-7 space-btw">By clicking <span>Register</span>, you agree to the Terms and Conditions set
-        out by this site, including our Cookie Use.</p>
+      <div class="row">
+        <div class="col-20 align-center row">
+          <input type="checkbox" id="check">
+          <label for="check" class="font-12 ml-10">
+            I agree
+          </label>
+        </div>
+        <div class="col-80">
+          <p class="font-12">By clicking <span class="register-blue sm-register-padding">Register</span>, you agree to the <span class="terms-color">Terms and Conditions</span> set
+          out by this site, including our Cookie Use.</p>
+        </div>
+      </div>
+      <div class="row space-btw">
+        <button class="register-blue big-register-padding remove-border">Register</button>
+        <button class="sign-green remove-border">Sign In</button>
       </div>
 
     </form>
