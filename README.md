@@ -1,3 +1,6 @@
+# hw2
+![gif1](https://user-images.githubusercontent.com/80491609/188058810-cb8e967d-0c93-4795-8872-a6a0e6ac4679.gif)
+
 # hw1 
 #### desktop
 ![desktop](https://user-images.githubusercontent.com/80491609/187563351-6e0cdc38-d1f4-445f-8bb0-891e71d7b349.png)
