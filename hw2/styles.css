@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  background-color: black;
+}
+
+.row {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.margin-adjust {
+  margin: 0px 45px 0px 0px;
+}
+
+.margin-adjust-2 {
+  margin: 0px 0px 0px 30px;
+}
+
+.margin-adjust-3 {
+  margin: 0px 25px 0px 0px;
+}
+
+.container {
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+}
+
+.col-half {
+  width: 50%;
+}
+
+.resize {
+  width: 80%;
+  height: 80%;
+}
+
+.raise {
+  z-index: 1;
+}
+
+.window {
+  border: 1px solid gray;
+  border-radius: 15px;
+  background-color: black;
+  bottom: -150px;
+}
+
+.owl {
+  width: 29%;
+  height: 25.5%;
+  position: absolute;
+  top: 154px;
+  right: 203px;
+  z-index: 0;
+}
+
+.office {
+  width: 24%;
+  height: 22%;
+  position: absolute;
+  bottom: -500px;
+  z-index: 0;
+}
+
+.col-thirds {
+  flex-basis: calc(100% / 3);
+}
+
+.padding-edit {
+  padding: 0px 15px 0px 15px;
+}
+
+.ml-30 {
+  margin-left: 90px;
+}
+
+.margin-edit-1 {
+  margin-left: 5px;
+}
+
+.margin-edit-2 {
+  margin-bottom: 20px;
+  margin-left: 15px;
+  color: blue;
+}
+
+.stranger {
+  height: 60%;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.timer {
+  height: 30%;
+}
